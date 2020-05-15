@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/*.site-statistic-demo-card {*/
+/*background: #ececec;*/
+/*padding: 30px;*/
+/*margin-bottom: 30px;*/
+/*}*/
+
+.site-statistic-demo-card .ant-statistic-title, .site-statistic-demo-card .ant-statistic-content {
+    text-align: center;
+}
+
+.site-statistic-demo-card .ant-statistic-title {
+    /*font-size: 20px;*/
+    /*font-weight: 500;*/
+    color: #005862;
+    font-weight: 700;
+    font-size: 3em;
+    /*text-shadow: #e0e0e0 4px 2px 0;*/
+}
+
+.site-statistic-demo-card .ant-card-bordered {
+    border: 1px solid #a9a9a940;
+    background: linear-gradient(0deg, #00c9ff36 0%, #00c9ff14 100%);
+    border-radius: 5px;
+}
+
+[data-theme="dark"] .site-statistic-demo-card {
+    background: #303030;
+}
+
+.ant-statistic-content-value-int {
+    color: #005862;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.ant-statistic-content .ant-statistic-content-value {
+    margin-bottom: 4px;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 18px;
+}
+
+.ant-card.ant-card-bordered {
+    background: #fff;
+    border-radius: 0px
+}
+
+.ant-statistic-title {
+    margin-bottom: 4px;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+}
+
+.site-statistic-demo-card {
+    background: rgba(60, 140, 149, 0.1);
+    /*background: #ececec;*/
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.ant-table-thead > tr > th {
+    background: rgba(60, 140, 149, 0.1);
+}
+
+.ant-btn-primary {
+    background-color: #005862 !important;
+    border-color: #005862 !important;
+}
+
+.ant-btn-primary:hover {
+    background-color: #005862c7 !important;
+    border-color: #005862c7 !important;
+}
+
+.ant-descriptions-title, .ant-descriptions-item-label, .ant-descriptions-item-content {
+    font-size: 18px!important;
+}
+
+input,
+.site-filter-component,
+.ant-select-dropdown .ant-select-dropdown-menu-item,
+.ant-select,
+.site-table-component
+.ant-table-thead,
+.site-table-component
+.ant-table-row,
+.ant-btn {
+    font-size: 16px !important;
+}

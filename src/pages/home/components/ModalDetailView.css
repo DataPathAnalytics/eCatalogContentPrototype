@@ -1,0 +1,21 @@
+.ant-descriptions-title {
+    text-align: center;
+    height: 50px;
+    background-color: gainsboro;
+    margin-bottom: 0 !important;
+}
+
+.ant-descriptions-title span{
+    line-height: 50px;
+}
+
+.descriptions .ant-descriptions-item-label {
+    width: 34%;
+}
+.ant-modal-title {
+    font-size: 22px !important;
+}
+
+.ant-descriptions-row .ant-descriptions-item-label {
+    white-space: normal;
+}
